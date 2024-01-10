@@ -3,6 +3,9 @@
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="sani.board.repository.PostMapper">
 
-
+    <insert id="save" useGeneratedKeys="true" keyProperty="postId">
+        insert into post(user_id,title, content)
+        values (#{userId},#{title}, #{content})
+    </insert>
 
 </mapper>
