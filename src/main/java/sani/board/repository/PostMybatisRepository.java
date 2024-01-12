@@ -3,7 +3,7 @@ package sani.board.repository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Repository;
 import sani.board.domain.Post;
-import sani.board.domain.dto.PostUpdateDto;
+import sani.board.domain.dto.request.PostUpdateDto;
 
 import java.util.List;
 import java.util.Optional;
@@ -14,8 +14,9 @@ public class PostMybatisRepository implements PostRepository {
     private final PostMapper postMapper;
 
     @Override
-    public void save(Post post) {
+    public Post save(Post post) {
         postMapper.save(post);
+        return post;
     }
 
     @Override
