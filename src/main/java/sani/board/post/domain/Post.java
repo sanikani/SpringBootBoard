@@ -1,4 +1,4 @@
-package sani.board.domain;
+package sani.board.post.domain;
 
 import lombok.Data;
 

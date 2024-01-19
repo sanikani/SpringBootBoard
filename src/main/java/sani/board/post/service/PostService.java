@@ -1,9 +1,9 @@
-package sani.board.service;
+package sani.board.post.service;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
-import sani.board.domain.Post;
-import sani.board.repository.PostRepository;
+import sani.board.post.domain.Post;
+import sani.board.post.repository.PostRepository;
 
 import java.util.List;
 import java.util.Optional;

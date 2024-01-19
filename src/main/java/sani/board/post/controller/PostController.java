@@ -1,11 +1,11 @@
-package sani.board.controller;
+package sani.board.post.controller;
 
 import jakarta.servlet.http.HttpServletResponse;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import sani.board.domain.Post;
-import sani.board.service.PostService;
+import sani.board.post.domain.Post;
+import sani.board.post.service.PostService;
 
 import java.io.IOException;
 

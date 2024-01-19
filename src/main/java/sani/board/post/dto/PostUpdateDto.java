@@ -1,4 +1,4 @@
-package sani.board.domain.dto;
+package sani.board.post.dto;
 
 public class PostUpdateDto {
 }

@@ -1,11 +1,11 @@
-package sani.board.domain;
+package sani.board.member.domain;
 
 import lombok.Data;
 
 import java.util.Date;
 
 @Data
-public class User {
+public class Member {
     private Long user_id;
     private String name;
     private String email;

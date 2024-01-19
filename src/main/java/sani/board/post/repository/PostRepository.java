@@ -1,7 +1,7 @@
-package sani.board.repository;
+package sani.board.post.repository;
 
-import sani.board.domain.Post;
-import sani.board.domain.dto.request.PostUpdateDto;
+import sani.board.post.domain.Post;
+import sani.board.post.dto.PostUpdateDto;
 
 import java.util.List;
 import java.util.Optional;
